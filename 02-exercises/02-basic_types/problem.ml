@@ -22,7 +22,8 @@ open! Base
 
    // C, C++, or Java type signature
    int four; 
-*)
+ *)
+
 let four = 4
 
 (* [float_four] is a value with the type float. We write the signature like
@@ -70,7 +71,7 @@ let float_four = 4.
    value of the last statement in that function.
 
    Try implementing [int_average].  *)
-let int_average x y = failwith "For you to implement"
+let int_average x y = (x+y)/2;;
 
 (* Now try implementing [float_average]. Remember that you can check the mli for
    the type of this function. *)
