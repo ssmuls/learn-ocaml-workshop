@@ -75,7 +75,7 @@ let int_average x y = (x+y)/2;;
 
 (* Now try implementing [float_average]. Remember that you can check the mli for
    the type of this function. *)
-let float_average x y = failwith "For you to implement"
+let float_average x y = (x+.y)/.2.0;;
 
 (* Note that in OCaml, parenthese are not necessary when applying a function! So
    the following expression computes the average of 10 and 20:
